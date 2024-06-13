@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const {getBooks, getBook, createBook, updateBook, deleteBook} = require('../controllers/books.js')
+const {getBooks, getBook, createBook, updateBook, deleteBook} = require('../controllers/books')
 
 router.get('/books', getBooks);
 router.get('/books/:book_id', getBook);
